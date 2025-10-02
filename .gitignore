@@ -1,0 +1,4 @@
+*.npy
+.claude/
+conda_env/
+claude-code/

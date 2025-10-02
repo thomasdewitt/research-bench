@@ -1,0 +1,7 @@
+There are some cases in this directory, each consisting of a number of 2D binary arrays, with regions of value 1 perhaps representing clouds. Each case was generated using a random process with identical statistics within each case but statistics that differ between cases. Your task is to determine the size distribution of the clouds. If the clouds are power-law distributed, then calculate the power-law exponent τ such that dn/da ~ a^-(τ+1) where a is the object area. Fill in solution.csv with your answers, with the first col is_scaling boolean and the second col exponent is τ as a float.
+
+Note that you will have to consider biases arising from the fact that the arrays have finite resolution and finite size. Check the .pdf for instructions here.
+
+Perform any checks or experiments necessary to ensure that your results are correct.
+
+A conda environment is available at conda_env/bin/python with packages including numpy, pandas, scipy, matplotlib.
