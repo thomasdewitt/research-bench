@@ -1,0 +1,20 @@
+Task: Cloud Size Distribution Analysis
+
+Given a binary cloud mask, compute the size distribution of cloud objects.
+
+Inputs:
+- Binary mask data in test/data/ directory (NumPy array saved as .npy file)
+
+Requirements:
+1. Identify connected cloud objects in the binary mask
+2. Calculate the size (number of pixels) of each cloud object
+3. Compute the size distribution accounting for finite domain effects
+4. Output results as a CSV with columns: size, count
+
+Expected output format (solution.csv):
+- Column 1: Object size (number of pixels)
+- Column 2: Count (number of objects with that size)
+
+Notes:
+- Use appropriate methods to account for domain boundary effects
+- Consider using the objscale package if available
