@@ -1,6 +1,6 @@
 # Research Bench
 
-Benchmark suite for evaluating AI coding agents on atmospheric science research tasks.
+Thomas's personal AI benchmark with difficult questions relating to his research.
 
 ## Structure
 
