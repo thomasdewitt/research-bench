@@ -4,4 +4,5 @@ Note that you will have to consider biases arising from the fact that the arrays
 
 Perform any checks or experiments necessary to ensure that your results are correct.
 
-A conda environment is available at conda_env/bin/python with packages including numpy, pandas, scipy, matplotlib.
+
+You must begin by installing basic Python packages.

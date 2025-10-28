@@ -1,0 +1,312 @@
+(main) Thomass-MacBook-Air:sounding-fluctuations thomas$ python plot_structure_functions.py 
+==================================================
+     1D vertical Hurst multi-dataset
+==================================================
+Hurricanes $H_v=0.513 \pm 0.008$
+Station: overall_values
+IGRA $H_v=0.62 \pm 0.02$
+ACTIVATE $H_v=0.71 \pm 0.01$
+==================================================
+     1D vertical exponents by height
+==================================================
+==================================================
+     IGRA 1D Horizontal SF
+==================================================
+$0.50 \pm 0.02$
+==================================================
+     2D vertical/horizontal IGRA structure function analysis, small bin removed = True
+==================================================
+/Users/thomas/Box Sync/sounding-fluctuations/plot_structure_functions.py:1711: RuntimeWarning: invalid value encountered in scalar power
+  return (horizontal_flux**(eta/horizontal_exponent) * deltax**(2*eta) + vertical_flux**(eta/horizontal_exponent) * deltaz**(2*eta*vertical_exponent/horizontal_exponent))**(horizontal_exponent/eta)
+Fitted parameters, 2010 to  2025:
+    Horizontal constant:    6 \pm 2 * 10^-3
+    Vertical constant:      9 \pm 2 * 10^-3
+    Energy diss. rate:      0.46 *10^-3 m^2/s^3
+    Buoyancy var. flux:     0.01 *10^-3 m^2/s^5
+    Sphereoscale:           0.5 \pm 0.8 m
+    Horizontal exponent:    0.37 \pm 0.01
+    Vertical exponent:      0.63 \pm 0.01
+    Hz:                     0.59 \pm 0.04
+    eta:                    1 (assumed)
+$\phi_h=0.006 \pm 0.002, \phi_v=0.009 \pm 0.002, H_h = 0.37 \pm 0.01, H_v = 0.63 \pm 0.01$
+/Users/thomas/Box Sync/sounding-fluctuations/plot_structure_functions.py:201: MatplotlibDeprecationWarning: Since Matplotlib 3.10 indicate_inset_[zoom] returns a single InsetIndicator artist with a rectangle property and a connectors property.  From 3.12 it will no longer be possible to unpack the return value into two elements.
+  for c in connectors:
+/Users/thomas/Box Sync/sounding-fluctuations/plot_structure_functions.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  axis.set_yticklabels(y_tick_labels)
+/Users/thomas/Box Sync/sounding-fluctuations/plot_structure_functions.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  axis.set_yticklabels(y_tick_labels)
+==================================================
+     2D horizontal/horizontal IGRA structure function analysis
+==================================================
+/Users/thomas/Box Sync/sounding-fluctuations/plot_structure_functions.py:1711: RuntimeWarning: invalid value encountered in scalar power
+  return (horizontal_flux**(eta/horizontal_exponent) * deltax**(2*eta) + vertical_flux**(eta/horizontal_exponent) * deltaz**(2*eta*vertical_exponent/horizontal_exponent))**(horizontal_exponent/eta)
+Fitted parameters, 2010 to  2025:
+    x dir constant:             28.47 * 10^-3\pm 37.11 * 10^-3
+    y dir  constant:            51.24 * 10^-3\pm 43.21 * 10^-3
+    Aspect ratio  phi_x/phi_y:  0.56\pm 2.41
+    X direction exponent:       0.35 \pm 0.05
+    Y direction exponent:       0.33 \pm 0.03
+    Hz  H_x/H_Y:                1.1 \pm 0.2
+        $\varphi_x=0.03 \pm 0.04, \varphi_y=0.05 \pm 0.04, H_x = 0.35 \pm 0.05, H_y = 0.33 \pm 0.03$
+==================================================
+     SAM hurst exponents
+==================================================
+Sphereoscale estimate : 22.5 m
+Native resolution
+     Horizontal exponent: 0.305 \pm 0.008
+     Vertical exponent:   0.69 \pm 0.02
+    $H_h=0.305 \pm 0.008$ and $H_v=0.69 \pm 0.02$
+     Ratio:               0.44 \pm 0.04
+Convolution sigma = 2
+     Horizontal exponent: 0.42 \pm 0.01
+     Vertical exponent:   0.79 \pm 0.03
+    $H_h=0.42 \pm 0.01$ and $H_v=0.79 \pm 0.03$
+     Ratio:               0.52 \pm 0.05
+==================================================
+     1D vertical IGRA station-by-station
+==================================================
+Splitting at Hv=0.63
+Height:  3000
+     N CH soundings with large values: 53
+     N CH soundings with small values: 6
+     N US soundings with large values: 7
+     N US soundings with small values: 75
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Height:  5000
+     N CH soundings with large values: 79
+     N CH soundings with small values: 5
+     N US soundings with large values: 2
+     N US soundings with small values: 82
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Height:  7000
+     N CH soundings with large values: 54
+     N CH soundings with small values: 4
+     N US soundings with large values: 8
+     N US soundings with small values: 67
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Height:  9000
+     N CH soundings with large values: 16
+     N CH soundings with small values: 0
+     N US soundings with large values: 19
+     N US soundings with small values: 33
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Height:  11000
+     N CH soundings with large values: 9
+     N CH soundings with small values: 1
+     N US soundings with large values: 10
+     N US soundings with small values: 52
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Height:  13000
+     N CH soundings with large values: 0
+     N CH soundings with small values: 0
+     N US soundings with large values: 0
+     N US soundings with small values: 57
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Height:  15000
+     N CH soundings with large values: 0
+     N CH soundings with small values: 0
+     N US soundings with large values: 0
+     N US soundings with small values: 27
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Height:  17000
+     N CH soundings with large values: 16
+     N CH soundings with small values: 2
+     N US soundings with large values: 0
+     N US soundings with small values: 12
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Height:  19000
+     N CH soundings with large values: 22
+     N CH soundings with small values: 0
+     N US soundings with large values: 0
+     N US soundings with small values: 19
+     N RS soundings with large values: 0
+     N RS soundings with small values: 0
+     N CA soundings with large values: 0
+     N CA soundings with small values: 0
+     N AS soundings with large values: 0
+     N AS soundings with small values: 0
+Number of data values: 788
+Number of stations: 184
+==================================================
+     1D vertical Hurst multi-dataset, orders 2 & 3
+==================================================
+Station: overall_values
+==================================================
+     IGRA 1D Horizontal SF Orders 2 & 3
+==================================================
+==================================================
+     Creating structure function exponents table
+==================================================
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Dataset & Direction & Order ($q$) & Structure Function Exponent $\zeta(q)$ & Inferred $H=\zeta(q)/q$ \\
+\hline
+IGRA & Vertical & 1 & $0.62 \pm 0.02$ & $0.62 \pm 0.02$ \\
+ & & 2 & $1.24 \pm 0.04$ & $0.62 \pm 0.02$ \\
+ & & 3 & $1.80 \pm 0.06$ & $0.60 \pm 0.02$ \\
+\hline
+ACTIVATE & Vertical & 1 & $0.70 \pm 0.01$ & $0.70 \pm 0.01$ \\
+ & & 2 & $1.43 \pm 0.03$ & $0.71 \pm 0.01$ \\
+ & & 3 & $2.12 \pm 0.04$ & $0.71 \pm 0.01$ \\
+\hline
+Hurricanes & Vertical & 1 & $0.523 \pm 0.007$ & $0.523 \pm 0.007$ \\
+ & & 2 & $1.03 \pm 0.02$ & $0.513 \pm 0.008$ \\
+ & & 3 & $1.51 \pm 0.03$ & $0.504 \pm 0.009$ \\
+\hline
+IGRA & Horizontal & 1 & $0.49 \pm 0.02$ & $0.49 \pm 0.02$ \\
+ & & 2 & $1.00 \pm 0.04$ & $0.50 \pm 0.02$ \\
+ & & 3 & $1.44 \pm 0.04$ & $0.48 \pm 0.01$ \\
+\hline
+\end{tabular}
+\caption{Structure function exponents for orders $q=1,2,3$ and their differences from linear scaling $K(q) = qH$ where $H$ is the order-1 exponent.}
+\label{tab:structure_function_exponents}
+\end{table}
+==================================================
+     1D vertical exponents by height
+==================================================
+==================================================
+     1D vertical exponents by height
+==================================================
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_0m_to_2000m}
+    \caption{As in Fig. 4, but for altitudes between 0 and 2 km.}
+\label{fig:vertical SF layer 0-2km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_2000m_to_4000m}
+    \caption{As in Fig. 4, but for altitudes between 2 and 4 km.}
+\label{fig:vertical SF layer 2-4km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_4000m_to_6000m}
+    \caption{As in Fig. 4, but for altitudes between 4 and 6 km.}
+\label{fig:vertical SF layer 4-6km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_6000m_to_8000m}
+    \caption{As in Fig. 4, but for altitudes between 6 and 8 km.}
+\label{fig:vertical SF layer 6-8km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_8000m_to_10000m}
+    \caption{As in Fig. 4, but for altitudes between 8 and 10 km.}
+\label{fig:vertical SF layer 8-10km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_10000m_to_12000m}
+    \caption{As in Fig. 4, but for altitudes between 10 and 12 km.}
+\label{fig:vertical SF layer 10-12km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_12000m_to_14000m}
+    \caption{As in Fig. 4, but for altitudes between 12 and 14 km.}
+\label{fig:vertical SF layer 12-14km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_14000m_to_16000m}
+    \caption{As in Fig. 4, but for altitudes between 14 and 16 km.}
+\label{fig:vertical SF layer 14-16km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_16000m_to_18000m}
+    \caption{As in Fig. 4, but for altitudes between 16 and 18 km.}
+\label{fig:vertical SF layer 16-18km}
+\end{figure}
+
+\begin{figure}
+    \includegraphics{supplement_figures/Vertical_vector_structure_functions_18000m_to_20000m}
+    \caption{As in Fig. 4, but for altitudes between 18 and 20 km.}
+\label{fig:vertical SF layer 18-20km}
+\end{figure}
+
+==================================================
+     2D vertical/horizontal IGRA structure function analysis, small bin removed = True
+==================================================
+Fitted parameters, 2010 to  2025:
+    Horizontal constant:    15 \pm 7 * 10^-3
+    Vertical constant:      6 \pm 1 * 10^-3
+    Energy diss. rate:      1.78 *10^-3 m^2/s^3
+    Buoyancy var. flux:     0.00 *10^-3 m^2/s^5
+    Sphereoscale:           10 \pm 10 m
+    Horizontal exponent:    0.34 \pm 0.02
+    Vertical exponent:      0.65 \pm 0.01
+    Hz:                     0.52 \pm 0.05
+    eta:                    0.81 \pm 0.07
+$\phi_h=0.015 \pm 0.007, \phi_v=0.006 \pm 0.001, H_h = 0.34 \pm 0.02, H_v = 0.65 \pm 0.01$
+/Users/thomas/Box Sync/sounding-fluctuations/plot_structure_functions.py:201: MatplotlibDeprecationWarning: Since Matplotlib 3.10 indicate_inset_[zoom] returns a single InsetIndicator artist with a rectangle property and a connectors property.  From 3.12 it will no longer be possible to unpack the return value into two elements.
+  for c in connectors:
+/Users/thomas/Box Sync/sounding-fluctuations/plot_structure_functions.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  axis.set_yticklabels(y_tick_labels)
+/Users/thomas/Box Sync/sounding-fluctuations/plot_structure_functions.py:233: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  axis.set_yticklabels(y_tick_labels)
+==================================================
+     IGRA 1D Horizontal SF - 5m 5min
+==================================================
+$0.52 \pm 0.02$
+==================================================
+     IGRA 1D Horizontal Temperature SF
+==================================================
+$0.63 \pm 0.02$
+==================================================
+     IGRA 1D Horizontal Pressure SF
+==================================================
+$0.65 \pm 0.05$
+==================================================
+     IGRA 1D Horizontal SF, 45 Deg +
+==================================================
+$0.48 \pm 0.03$
+==================================================
+     IGRA 1D Horizontal SF, -20 to 20 Deg
+==================================================
+$0.38 \pm 0.02$
+(main) Thomass-MacBook-Air:sounding-fluctuations thomas$ 

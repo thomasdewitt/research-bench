@@ -1,1 +1,6 @@
 case,is_scaling,exponent
+case_1,True,0.9524813051600066
+case_2,True,0.8265590468177183
+case_3,True,0.9145099440100809
+case_4,False,
+case_5,True,1.0103487405438318
